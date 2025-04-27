@@ -79,3 +79,19 @@ Choose the version that best suits your workflow:
 ---
 
 ## 📦 Project Structure
+
+Bulk-File-Renamer/
+├── bulk-file-renamer.py   # Python GUI version using Tkinter
+├── bulk_rename.ps1        # PowerShell CLI version
+├── LICENSE                # Project's License file
+└── README.md              # This documentation file
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
+
+---
+
+Built with ❤️ by SmaRTy Saini Corp.
+
+*(**Visibility Tip:** Consider adding a short GIF demonstrating the GUI or CLI in action to make the README even more engaging!)*
