@@ -1,21 +1,89 @@
-# Bulk File Renamer
+A simple, flexible tool for bulk renaming files based on customizable patterns.
+Ideal for photographers, content managers, developers, and anyone handling large batches of files.
 
-A simple script for bulk renaming files based on a customizable pattern. This tool can be helpful for people with large numbers of files to rename, such as photographers, content managers, or anyone needing a quick renaming solution.
+✨ Features
+Custom Prefix: Easily add personalized prefixes to filenames.
 
-## Features
+Date Formatting: Automatically insert dates (e.g., 2025-04-26).
 
-- **Custom Prefix**: Add a custom prefix to your file names.
-- **Date Formatting**: Optionally add a date (e.g., `2024-11-16`) to the filenames.
-- **Sequential Numbering**: Automatically number the files sequentially.
-- **User-friendly Interface**: Use a simple GUI (Python version) or command-line (PowerShell version) to rename files in bulk.
+Sequential Numbering: Add incremental numbers to maintain order.
 
-## Installation
+GUI (Python) or Command Line (PowerShell) options for flexibility.
 
-### Python Version (with Tkinter GUI)
+Lightweight and Fast: No heavy dependencies.
 
-1. Install Python (3.x) from [python.org](https://www.python.org/downloads/).
-2. Ensure you have Tkinter (it usually comes with Python).
-3. Download or clone this repository to your local machine.
-4. Open the Python script (`bulk_rename.py`), and run it using the command:
-   ```bash
-   python bulk_rename.py
+🚀 Installation
+Python Version (with Tkinter GUI)
+Install Python 3.x from python.org.
+
+Ensure Tkinter is installed (included with most Python versions).
+
+Clone or download this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/SmaRTy-Saini/Bulk-File-Renamer.git
+Run the Python script:
+
+bash
+Copy
+Edit
+cd Bulk-File-Renamer
+python bulk-file-renamer.py
+PowerShell Version
+Open PowerShell on Windows.
+
+Navigate to the script folder.
+
+Run the PowerShell script:
+
+bash
+Copy
+Edit
+./bulk_rename.ps1
+🛠 Usage
+Python GUI:
+Select a folder → Enter prefix/date settings → Preview → Bulk rename!
+
+PowerShell CLI:
+Edit the script parameters or pass arguments if scripted further.
+
+📦 Project Structure
+bash
+Copy
+Edit
+├── bulk-file-renamer.py   # Python GUI version
+├── bulk_rename.ps1        # PowerShell CLI version
+├── LICENSE
+└── README.md
+🏷 Topics (GitHub Tags for Visibility)
+bulk-file-rename
+
+python
+
+powershell
+
+file-automation
+
+batch-rename
+
+tkinter
+
+windows-automation
+
+file-management
+
+productivity-tools
+
+📄 License
+Licensed under the MIT License.
+Built with ❤️ by SmaRTy Saini Corp.
+
+🚀 Quick Visibility Tips for This Repo:
+Add the above topics under "Manage Topics" on your repo homepage.
+
+Pin this repository on your GitHub profile.
+
+(Optional) Add a simple GIF demo later if you want even more engagement!
+
